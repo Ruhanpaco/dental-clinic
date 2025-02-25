@@ -191,7 +191,7 @@ export default function Home() {
             {[
               {
                 name: "Sarah Johnson",
-                text: "The level of care and attention to detail at WhitePearl is unmatched. My smile has never looked better!",
+                text: "The level of care and attention to detail at WhitePearl is exceptional. I couldn&apos;t be happier with my results!",
                 role: "Executive"
               },
               {
@@ -213,7 +213,9 @@ export default function Home() {
                 className="bg-white p-8 rounded-lg border border-primary-gold"
               >
                 <div className="text-primary-gold mb-6">★★★★★</div>
-                <p className="font-body text-black mb-6 italic">"{testimonial.text}"</p>
+                <p className="text-lg font-body text-black mb-4">
+                  &ldquo;{testimonial.text}&rdquo;
+                </p>
                 <div>
                   <div className="font-heading text-lg text-black">{testimonial.name}</div>
                   <div className="font-ui text-sm text-black">{testimonial.role}</div>

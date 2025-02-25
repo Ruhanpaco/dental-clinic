@@ -96,13 +96,13 @@ export default function About() {
               <h2 className="font-heading text-3xl lg:text-4xl text-black mb-6">Our Legacy of Excellence</h2>
               <div className="space-y-6">
                 <p className="font-body text-black">
-                  Founded in 2008, WhitePearl Dental Clinic has established itself as Beverly Hills' premier destination for luxury dental care. Our journey began with a vision to transform the dental experience into something extraordinary.
+                  Founded in 2008, WhitePearl Dental Clinic has established itself as Beverly Hills&apos; premier destination for luxury dental care. Our journey began with a vision to transform the dental experience into something extraordinary.
                 </p>
                 <p className="font-body text-black">
-                  Over the years, we've consistently invested in cutting-edge technology and assembled a team of world-class professionals, setting new standards in dental excellence.
+                  Over the years, we&apos;ve consistently invested in cutting-edge technology and assembled a team of world-class professionals, setting new standards in dental excellence.
                 </p>
                 <p className="font-body text-black">
-                  Today, we're proud to be recognized as a leader in cosmetic and restorative dentistry, serving clients who expect nothing but the best.
+                  Today, we&apos;re proud to be recognized as a leader in cosmetic and restorative dentistry, serving clients who expect nothing but the best.
                 </p>
               </div>
             </motion.div>
@@ -275,7 +275,7 @@ export default function About() {
             Experience the WhitePearl Difference
           </h2>
           <p className="font-body text-lg text-black mb-8 max-w-2xl mx-auto">
-            Join us for a consultation and discover why we're Beverly Hills' premier choice for luxury dental care.
+            Join us for a consultation and discover why we&apos;re Beverly Hills&apos; premier choice for luxury dental care.
           </p>
           <Link 
             href="/appointment"

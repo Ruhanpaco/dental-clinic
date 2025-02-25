@@ -66,7 +66,7 @@ export default function Contact() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="font-body text-lg text-white max-w-3xl mx-auto"
             >
-              We're here to answer any questions and help you begin your journey to a perfect smile.
+              We&apos;re here to help with any questions you may have about our services.
             </motion.p>
           </div>
         </div>
