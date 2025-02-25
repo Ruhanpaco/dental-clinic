@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { RiMapPin2Line, RiPhoneLine, RiMailLine, RiInstagramLine, RiFacebookLine, RiTwitterXLine } from 'react-icons/ri';
+import { RiMapPin2Line, RiPhoneLine, RiMailLine, RiInstagramLine, RiFacebookLine, RiTwitterXLine, RiGithubLine } from 'react-icons/ri';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -46,6 +46,15 @@ export default function Footer() {
                 className="text-primary-gold hover:opacity-80 transition-opacity"
               >
                 <RiTwitterXLine className="w-6 h-6" />
+              </motion.a>
+              <motion.a
+                whileHover={{ y: -2 }}
+                href="https://github.com/Ruhanpaco/dental-clinic"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-gold hover:opacity-80 transition-opacity"
+              >
+                <RiGithubLine className="w-6 h-6" />
               </motion.a>
             </div>
           </div>
@@ -112,6 +121,26 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-primary-gold/20">
           <p className="text-center text-sm font-ui text-white">
             © {currentYear} WhitePearl Dental Clinic. All rights reserved.
+          </p>
+          <p className="text-center text-sm font-ui text-white mt-2">
+            Made with ❤️ by <a 
+              href="https://www.ruhanpacolli.online/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary-gold hover:opacity-80 transition-opacity"
+            >
+              Ruhan Pacolli
+            </a>
+          </p>
+          <p className="text-center text-sm font-ui text-white/80 mt-1">
+            <a 
+              href="https://dental-clinic-ivory.vercel.app/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary-gold hover:opacity-80 transition-opacity"
+            >
+              View Live Demo
+            </a>
           </p>
         </div>
       </div>
